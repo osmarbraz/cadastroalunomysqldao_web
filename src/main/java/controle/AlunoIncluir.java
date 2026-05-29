@@ -26,7 +26,7 @@ public class AlunoIncluir extends HttpServlet {
 
                 Aluno objetoaluno = new Aluno();
 
-                if (objetoaluno.insertAlunoBD(nome, idade, curso, fase)) {
+                if (objetoaluno.inserirAlunoBD(nome, idade, curso, fase)) {
                     out.print("<span class='mensagemIncluir'>Inclus&atilde;o realizada com sucesso.</span><br>");
                 } else {
                     out.print("<span class='mensagemIncluir'>Inclus&atilde;o n&atilde;o realizada.</span><br>");

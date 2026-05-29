@@ -21,7 +21,7 @@ public class AlunoExcluir extends HttpServlet {
                 Aluno objetoaluno = new Aluno();
                 int id = Integer.parseInt(request.getParameter("id"));
 
-                if (objetoaluno.deleteAlunoBD(id)) {
+                if (objetoaluno.apagarAlunoBD(id)) {
                     out.print("<span class='mensagemExcluir'>Exclus&atilde;o realizada com sucesso.</span><br>");
                 } else {
                     out.print("<span class='mensagemExcluir'>Exclus&atilde;o n&atilde;o realizada.</span><br>");

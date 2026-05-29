@@ -28,7 +28,7 @@ public class AlunoAlterar extends HttpServlet {
                 Aluno objetoaluno = new Aluno();
 
                 // envia os dados para o Aluno processar
-                if (objetoaluno.updateAlunoBD(id, nome, idade, curso, fase)) {
+                if (objetoaluno.atualizarAlunoBD(id, nome, idade, curso, fase)) {
                     out.print("<span class='mensagemAlterar'>Altera&ccedil;&atilde;o realizada com sucesso.</span><br>");
                 } else {
                     out.print("<span class='mensagemAlterar'>Altera&ccedil;&atilde;o n&atilde;o realizada.</span><br>");
