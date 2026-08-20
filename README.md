@@ -3,7 +3,7 @@
 ## Contextualização
 
  - Esta é uma versão do sistema para a IDE NetBeans.<br> 
- - O projeto no NetBeans deve ser chamado CadastroAlunoMySQLDAO_web.<br>
+ - O projeto no NetBeans deve ser chamado **cadastroalunomysqldao_web**.<br>
  - Os dados estão armazenados no banco de dados MySQL.<br>
  - Este programa possui diversas classes organizada nos pacotes, principal, visão(web), dao e modelo.<br>
  - A pasta src contêm os fontes do projeto.<br>
